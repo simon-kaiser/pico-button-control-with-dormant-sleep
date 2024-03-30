@@ -14,6 +14,8 @@ The Pico is set to DORMANT sleep mode. This greatly limits the Pico's energy con
 When the power button is pressed again the Pico sends a high signal via the shutdown command line to signal the Pi to shutdown.
 After a successful shutdown, the Pico goes back to DORMANT sleep mode.
 
+![pico pi circuit](https://github.com/simon-kaiser/pico-button-control-with-dormant-sleep/blob/main/pico_schaltung.png)
+
 ## Dependencies
 The pico-extra-sdk is required for the sleep function.
 https://github.com/raspberrypi/pico-extras
