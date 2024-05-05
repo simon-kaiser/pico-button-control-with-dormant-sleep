@@ -69,6 +69,8 @@ void shutdown_pi(){
     gpio_put(raspiShutdownCommandPin, 0);
     //deactivate power relais, power off pi
     gpio_put(raspiPowerPin, 0);
+    //disable led
+    gpio_put(buttonLedPin, 0);
 }
 
 bool boot_pi(){
